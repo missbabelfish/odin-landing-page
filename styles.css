@@ -8,9 +8,14 @@ html {
     box-sizing: inherit;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
+  height: 100%;
   background-color: black;
   padding: 0;
   margin: 0;
@@ -18,8 +23,9 @@ body {
 
 .page-container {
   width: 100%;
+  height: 100%;
   margin: 0 auto;
-  padding: 10px 10%;
+  padding: 0 10%;
 }
 
 .hero {
@@ -69,6 +75,7 @@ h3 {
   background-color: #3882f6;
   border-radius: 7px;
   padding: 10px 30px;
+  margin-top: 5px;
   width: 120px;
 }
 
@@ -88,8 +95,9 @@ h2 {
   display: flex;
   gap: 2rem;
   justify-content: center;
-  /* flex: 0 1 0; */
   width: 100%;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .info-tile {
@@ -111,8 +119,58 @@ small {
 
 .quote {
   background-color: #e5e7eb;
+  height: 200px;
+}
+
+.quote-container {
+  height: 85%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.quote-author {
+  align-self: flex-end;
+  margin-top: 10px;
 }
 
 footer {
   background-color: white;
+  padding: 3rem 15%;
+}
+
+.footer-container {
+  background-color: #3882f6;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem;
+}
+
+.footer-container p {
+  margin-top: 5px;
+}
+
+.footer-button {
+  border: 2px solid white;
+  border-radius: 7px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  padding: 2px 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.footer-left p {
+  margin-bottom: 0;
+}
+
+span {
+  margin: 0;
 }
