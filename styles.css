@@ -93,7 +93,7 @@ h2 {
 .info-container {
   color: black;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
   width: 100%;
   margin-top: 2rem;
@@ -120,6 +120,11 @@ small {
 .quote {
   background-color: #e5e7eb;
   height: 200px;
+}
+
+.quote i {
+  font-size: 30px;
+  color: #1f2937
 }
 
 .quote-container {
